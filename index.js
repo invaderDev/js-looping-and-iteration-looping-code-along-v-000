@@ -6,3 +6,13 @@ function printBadges(empNames) {
 
   return empNames;
 }
+
+function coinFlip() {
+  return Math.random() >= 0.5;
+}
+
+function tailsNeverFails() {
+  while (coinFlip) {
+    
+  }
+}
