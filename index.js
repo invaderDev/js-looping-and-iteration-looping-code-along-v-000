@@ -7,13 +7,10 @@ function printBadges(empNames) {
   return empNames;
 }
 
-function coinFlip() {
-  return Math.random() >= 0.5;
-}
 
 function tailsNeverFails() {
   let tailsCount = 0;
-  
+
   while (coinFlip) {
     ++tailsCount;
   }
